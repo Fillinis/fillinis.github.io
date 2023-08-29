@@ -1,0 +1,507 @@
+/* Header */
+.sakumlapa {
+  position: relative;
+  margin: auto;
+  background-color: var(--color-white);
+  width: 1366px;
+  height: 3651px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+  font-family: var(--font-montserrat);
+}
+.menu {
+  z-index: 3;
+  position: absolute;
+  top: -50px;
+  left: 62px;
+  width: 1242px;
+  height: 146px;
+  text-align: left;
+  color: var(--color-gray);
+}
+.menu-child { /*  Menu button container */
+  position: absolute;
+  top: 101px;
+  left: 243px;
+  width: 999px;
+  height: 45px;
+}
+.menu-child > a { /* All menu button default values */
+  text-decoration: none;
+  position: absolute;
+  color: inherit;
+  top: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+
+/* Video Container */
+.video-container > * {
+  z-index: 1;
+  position:  absolute;
+  width: 1366px;
+  height: 722px;
+  top: 47px;
+  left: 0;
+}
+.video-inner {
+  top: 350px;
+  left: 620px;
+  width: 126px;
+  height: 123px;
+}
+
+/* SparkleHeart Container */
+.sparkleheart-container {
+  position: absolute;
+  top: 919px;
+  left: 359px;
+  display: inline-block;
+  width: 654px;
+  height: 114px;
+}
+
+/* Images Container */
+.image-container > img {
+  position: absolute;
+  left: 0;
+  width: 1366px;
+  object-fit: cover;
+}
+
+/* Two Button Container */
+.two-buttons > * {
+  position: absolute;
+}
+.two-buttons > span {
+  top: 1731px;
+  left: 220px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-oswald);
+  display: inline-block;
+  width: 394px;
+  height: 29px;
+}
+.two-buttons .second-button { /* Style only for second button */
+  left: 698px;
+  width: 500px;
+}
+.sapnotajiem,
+.stt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 182px;
+  height: 62px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sapnotajiem {
+  width: 233px;
+  height: 50px;
+}
+.poga-pieteikt-sapni,
+.poga-pieteikt-sapni1 {
+  top: 1810px;
+  left: 300px;
+  width: 233px;
+  height: 50px;
+  color: var(--color-white);
+}
+.poga-pieteikt-sapni1 {
+  left: 832px;
+}
+
+/* Menu Buttons */
+.ideja {
+  left: 0;
+  width: 46px;
+}
+.piesaki-sapni {
+  left: 81px;
+  width: 130px;
+  height: 24px;
+}
+.uznemejiem {
+  left: 238px;
+  width: 120px;
+  height: 24px;
+}
+.sapnu-banka {
+  left: 393px;
+  width: 123px;
+  height: 45px;
+}
+.sapnus-atbalsta {
+  left: 551px;
+  width: 153px;
+  height: 45px;
+}
+.iedvesmas-stasti {
+  left: 731px;
+  width: 188px;
+  height: 29px;
+}
+.lv {
+  left: 970px;
+  text-align: center;
+  width: 29px;
+  height: 29px;
+}
+
+/* Ripped Elements*/
+#ripped-6-7,
+#ripped-6-8 {
+  z-index: 2;
+  height: 55px;
+}
+#ripped-6-7 {
+  top: 1183px;
+}
+#ripped-6-8 {
+  top: 1526px;
+}
+
+/* Feedback */
+.sazinaties ::placeholder{
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray);
+  font-size: var(--font-size-lg);
+}
+.sazinaties-ar-mums {
+  position: absolute;
+  top: 2010px;
+  left: 274px;
+  width: 819px;
+  height: 48px;
+  font-size: 30px;
+  font-family: var(--font-oswald);
+}
+.sazinaties .poga-sutit {
+  position: absolute;
+  width: 182px;
+  height: 62px;
+  top: 2615px;
+  left: 592px;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.sazinaties input[type=text], .sazinaties textarea {
+  position: absolute;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-silver);
+  left: 377px;
+  top: 2113px;
+  width: 296px;
+  height: 43px;
+  padding: 13px 13px 10px;
+  box-sizing: border-box;
+  border: none;
+  letter-spacing: -0.27px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+#epasts {
+  left: 693px;
+}
+#telefons {
+  top: 2171px;
+  width: 612px;
+}
+#jautajums-vai-komentars {
+  top: 2229px;
+  width: 612px;
+  height: 232px;
+  resize: none;
+}
+.obligti-aizpildmie-lauki,
+.piekrtu-ka-mani {
+  position: absolute;
+  font-size: var(--font-size-sm);
+  text-align: left;
+  display: inline-block;
+}
+.obligti-aizpildmie-lauki {
+  top: 2476px;
+  left: 377px;
+  width: 612px;
+  height: 25px;
+}
+.piekrtu-ka-mani {
+  top: 2526px;
+  left: 417px;
+  width: 572px;
+  height: 39px;
+}
+.piekritu-glabasanai {
+  position: absolute;
+  top: 2529px;
+  left: 380px;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: none;
+  accent-color: var(--color-darkslategray);
+}
+
+/* Sponsors */
+.atbalstitaji {
+  z-index: 1;
+  position: absolute;
+  top: 2827px;
+  left: 0;
+  width: 1366px;
+  height: 481.59px;
+}
+#atb {
+  z-index: 2;
+  position: absolute;
+  top: 100px;
+  left: 486px;
+  width: 394px;
+  height: 29px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-oswald);
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  top: 3275px;
+  left: 0;
+  width: 1366px;
+  height: 376px;
+  text-align: left;
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-lg);
+  text-align: right; 
+}
+/* Footer Menu*/
+.footer-menu > span {
+  position: absolute;
+  left: 384px;
+  height: 24px;
+  text-align: left;
+}
+#ideja-1 {
+  top: 71px;
+  width: 68px;
+}
+#piesaki-sapni-1 {
+  top: 116px;
+  width: 182px;
+}
+#uznemejiem-1 {
+  top: 161px;
+  width: 179px;
+}
+#sapnu-banka-1 {
+  top: 202px;
+  width: 123px;
+  height: 45px;
+}
+#sapnus-atbalsta-1 {
+  top: 246px;
+  width: 179px;
+  height: 45px;
+}
+#iedvesmas-stasti-1 {
+  top: 291px;
+  width: 179px;
+  height: 29px;
+}
+
+.sparkleheart-2020 {
+  position: absolute;
+  top: 325px;
+  left: 62px;
+  width: 182px;
+  height: 38px;
+}
+
+/* Company Contacts */
+.sparklheart-dati > span {
+  position: absolute;
+  left: 642px;
+  width: 279px;
+  height: 24px;
+}
+#biedrba-sparkleheart {
+  top: 70px;
+  width: 287px;
+  font-size: var(--font-size-xl);
+}
+#reg-nr {
+  top: 116px;
+}
+#banka {
+  top: 150px;
+  height: 23px;
+}
+#banka-numurs {
+  top: 182px;
+  height: 19px;
+}
+.kontakti > span {
+  position: absolute;
+  left: 1120px;
+  width: 182px;
+  height: 45px;
+  text-align: right;
+}
+#kontakta-vards {
+  top: 71px;
+  font-size: var(--font-size-xl);
+}
+#kontakta-epasts {
+  top: 116px;
+  left: 908px;
+  width: 394px;
+  height: 22px;
+}
+#kontakta-numurs {
+  top: 150px;
+  height: 21px;
+}
+#kontakta-adrese {
+  top: 181px;
+  left: 987px;
+  width: 315px;
+  height: 22px;
+}
+#rekviziti {
+  display: none;
+}
+.social-media > img {
+  position: absolute;
+  top: 255px;
+  height: 36px;
+  object-fit: cover;
+  overflow: hidden;
+}
+#vector-icon {
+  left: 1221px;
+  width: 16px;
+}
+#vector-icon1 {
+  left: 1268px;
+}
+.privatuma-politika {
+  position: absolute;
+  top: 342px;
+  left: 1114px;
+  width: 190px;
+  height: 14px;
+  font-size: var(--font-size-sm);
+}
+
+/* Icons */
+.blacklogo-3-icon {
+  position: absolute;
+  width: 159px;
+  height: 146px;
+  object-fit: cover;
+}
+.union-icon {
+  z-index: 2;
+  position: relative;
+  width: 1367px;
+  height: 128px;
+}
+#zanda-1-icon {
+  top: 1197px;
+  left: 0;
+  width: 328px;
+  height: 355px;
+}
+#anda-2-1-icon {
+  top: 1183px;
+  left: 960px;
+  width: 406px;
+  height: 383px;
+}
+#alina-1-1-icon {
+  top: 1382px;
+  left: 662px;
+  width: 298px;
+  height: 184px;
+}
+#sibilla-4-icon {
+  top: 1202px;
+  left: 328px;
+  width: 334px;
+  height: 364px;
+}
+#brinuma-meita-15-icon {
+  top: 1202px;
+  left: 662px;
+  width: 298px;
+  height: 180px;
+}
+ .union-icon1,
+ .union-icon3,
+ .union-icon4 {
+  position: relative;
+ }
+ .union-icon1 {
+  width: 233px;
+  height: 50px;
+}
+.union-icon3 {
+  width: 182px;
+  height: 62px;
+}
+.union-icon4 {
+  width: 1366px;
+  height: 376px;
+}
+.subtract-icon {
+  position: relative;
+  width: 1366px;
+  height: 481.59px;
+}
+.atbalstitaju-logo > img {
+  position: absolute;
+  top: 218px;
+  height: 80px;
+  overflow: hidden;
+  object-fit: cover;
+}
+#getlogo-1-icon {
+  left: 168px;
+  width: 241.95px;
+  object-fit: cover;
+}
+#sem-logo-2-1-icon {
+  left: 495px;
+  width: 209.32px;
+}
+#citybee-logo-1-icon {
+  left: 789px;
+  width: 238.96px;
+}
+#logo1-1-icon {
+  top: 199px;
+  left: 1113px;
+  width: 84.77px;
+  height: 120px;
+}
+.goldenv2logo-3-icon {
+  position: absolute;
+  height: 182px;
+  width: 182px;
+  top: 73px;
+  left: 62px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}

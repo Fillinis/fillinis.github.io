@@ -1,0 +1,486 @@
+/* Mobile design */
+@media screen and (max-width: 766px) {
+  /* Header */
+  .sakumlapa {
+    max-width: 320px;
+    height: 2971px;
+  }
+  .menu {
+    left: 20px;
+    width: 280px;
+    height: 72px;
+  }
+  .menu-logo > img {
+    object-fit: contain;
+  }
+  .menu-child { /*  Menu button container */
+    display: none !important;
+  }
+
+ /*  Burger Menu */
+  #burger-menu {
+    height: 100%;
+  }
+  .burger-menu-child > a {
+    position: absolute;
+    left: 80px;
+    width: 160px;
+    height: 24px;
+    color: #000; 
+  }
+  .language-settings > span {
+    position: absolute;
+    top: 92px;
+    width: 40px;
+    height: 24px;
+    color: #000; 
+    font-size: var(--font-size-lg);
+  }
+  .burger-menu-child > a:hover,
+  .language-settings > span:hover {
+    font-weight: 600; 
+  }
+  .burger-menu-child > a:hover ~ #hover-menu {
+    left: 96px;
+    width: 129px;
+  }
+  .burger-menu-child > a:hover ~ #hover-menu,
+  .language-settings > span:hover ~ #hover-lang {
+    position: absolute !important;
+    display: block !important;
+  }
+  .language-settings > span:hover ~ #hover-lang {
+    top: 116px;
+    width: 25px;
+  }
+  
+  .lv-lang {
+    left: 80px;
+  }
+  .lv-lang:hover ~ #hover-lang {
+    left: 88px;
+  }
+  .en-lang {
+    left: 140px;
+  }
+  .en-lang:hover ~ #hover-lang {
+    left: 148px;
+  }
+  .rus-lang {
+    left: 200px;
+  }
+  .rus-lang:hover ~ #hover-lang {
+    left: 208px;
+  }
+  .blacklogo-icon-menu {
+    position: absolute;
+    left: 19.89px;
+    width: 76.951px;
+    height: 48.032px;
+  }
+  #ideja-menu {
+    top: 156px;
+  }
+  #ideja-menu:hover ~ #hover-menu {
+    top: 180px;
+  } 
+  #piesaki-sapni-menu {
+    top: 220px;
+  }
+  #piesaki-sapni-menu:hover ~ #hover-menu {
+    top: 244px;
+  }
+  #uznemejiem-menu {
+    top: 284px;
+  }
+  #uznemejiem-menu:hover ~ #hover-menu {
+    top: 308px;
+  }
+  #sapnu-banka-menu {
+    top: 348px;
+  }
+  #sapnu-banka-menu:hover ~ #hover-menu {
+    top: 372px;
+  }
+  #sapnus-atbalsta-menu {
+    top: 412px;
+  }
+  #sapnus-atbalsta-menu:hover ~ #hover-menu {
+    top: 436px;
+  }
+  #iedvesmas-stasti-menu {
+    top: 476px;
+    left: 60px;
+    width: 200px;
+  }
+  #iedvesmas-stasti-menu:hover ~ #hover-menu {
+    top: 500px;
+  }
+
+  /* Video Container */
+  .video-container {
+    top: 49px;
+    max-width: 100%;
+    max-height: 169px;
+  }
+  .video-container > img {
+    z-index: 1;
+    width: 100%;
+  }
+  #video-inner {
+    top: 45.37px;
+    left: 115px;
+    max-width: 90px;
+    max-height: 88.256px;
+    width: 100%;
+    height: 100%;
+    content: url("../img/group-2-mobile.svg");
+  }
+
+  /* SparkleHeart Container */
+  .sparkleheart-container {
+    margin-top: 0;
+    top: 218px;
+    left: 0px;
+    width: 320px;
+    height: 284px;
+    font-size: 12px;
+    display: block;
+  }
+  .sparkleheart-container > span {
+    position: absolute;
+    margin: 0;
+    top: 80px;
+    left: 20px;
+    max-width: 280px;
+    max-height: 124px;
+    height: 100%;
+  }
+
+  /* Images Container */
+  .image-container {
+    margin-top: 0;
+    top: 502px;
+    width: 100%;
+    height: 100%;
+    max-height: 357px;
+    display: block;
+  }
+
+  /* Two Button Container */
+  .two-buttons > span {
+    top: 979px;
+    left: -33px;
+    font-size: var(--font-size-lg);
+  }
+  .two-buttons .second-button { /* Style only for second button */
+    top: 1168px;
+    left: 20px;
+    width: 280px;
+    height: 55px;
+  }
+  .stt {
+    width: 140px;
+    height: 48px;
+  }
+  .sapnotajiem,
+  .stt {
+    font-size: var(--font-size-lg);
+  }
+  .poga-pieteikt-sapni,
+  .poga-pieteikt-sapni1 {
+    top: 1038px;
+    left: 47px;
+  }
+  .poga-pieteikt-sapni1 {
+    top: 1253px;
+  }
+
+  /* Ripped Elements*/
+  #ripped {
+    margin-top: 0;
+    top: 502px;
+    max-height: 25px;
+    width: 100%;
+  }
+  #ripped-6-7,
+  #ripped-6-8 {
+    position: absolute;
+    margin-top: 0;
+    left: 0;
+  }
+  #ripped #ripped-6-7 {
+    height: 24px;
+    content: url("../img/ripped-6-7-mobile.png");
+  }
+  #ripped #ripped-6-8 {
+    top: 332px;
+    height: 25px;
+    content: url("../img/ripped-6-8-mobile.svg");
+  }
+
+  /* Feedback */
+  .sazinaties ::placeholder{
+    font-size: 14px;
+  }
+  .sazinaties-ar-mums {
+    top: 1423px;
+    left: 20px;
+    width: 280px;
+    height: 35px;
+    font-size: var(--font-size-xl);
+  }
+  .sazinaties .poga-sutit {
+    width: 140px;
+    height: 48px;
+    top: 1924px;
+    left: 90px;
+    font-size: var(--font-size-lg);
+  }
+  .sazinaties input[type=text], .sazinaties textarea {
+    left: 20px !important;
+    top: 1488px;
+    width: 280px;
+    height: 35px;
+    padding: 10px 12px 8.14px;
+    letter-spacing: -0.21px;
+    font-size: var(--font-size-sm);
+  }
+  #epasts {
+    top: 1533px;
+  }
+  #telefons {
+    top: 1578px;
+    width: 280px;
+  }
+  #jautajums-vai-komentars {
+    top: 1623px;
+    width: 280px;
+    height: 150px;
+  }
+  .obligti-aizpildmie-lauki,
+  .piekrtu-ka-mani {
+    font-size: 12px;
+  }
+  .obligti-aizpildmie-lauki {
+    top: 1783px;
+    left: 20px;
+    width: 280px;
+    height: 18px;
+  }
+  .piekrtu-ka-mani {
+    top: 1811px;
+    left: 57px;
+    width: 243px;
+    height: 63px;
+  }
+  .container input,
+  .checkmark {
+    top: 1811px;
+    left: 20px;
+  }
+
+  /* Sponsors */
+  .atbalstitaji {
+    top: 2093px;
+    width: 320px;
+    height: 732.047px;
+  }
+  #atb {
+    top: 83px;
+    left: 81px;
+    width: 160px;
+    height: 33px;
+  }
+
+  /* Footer */
+  .footer {
+    top: 2488px;
+    width: 320px;
+    height: 483px;
+    font-size: 12px;
+  }
+  .footer > div > *:not(.union-icon4) {
+    z-index: 2;
+  }
+  .footer-menu {
+    display: none !important;
+  }
+  .sparkleheart-2020 {
+    top: 416px;
+    left: 20px;
+    width: 280px;
+    height: 16px;
+    font-size: 11px;
+  }
+
+  /* Company Information */
+  .sparklheart-dati > span {
+    display: none !important;
+  }
+  .kontakti > span {
+    left: 19.99px !important;
+    width: 279px;
+    text-align: left;
+  }
+  #kontakta-vards {
+    top: 168px;
+    height: 17px;
+    font-size: var(--font-size-lg);
+  }
+  #kontakta-epasts {
+    top: 222px;
+    height: 15px;
+  }
+  #kontakta-numurs {
+    top: 249px;
+    height: 16px;
+  }
+  #kontakta-adrese {
+    top: 274px;
+    left: 987px;
+    width: 315px;
+    height: 22px;
+  }
+  #rekviziti {
+    top: 300px;
+    width: 220px;
+    height: 21px;
+    font-size: 14px; 
+    font-weight: 700; 
+    display: block;
+  }
+  .social-media > img {
+    top: 356px;
+    height: 25px;
+  }
+  #vector-icon {
+    left: 20px;
+    width: 12.5px;
+  }
+  #vector-icon1 {
+    left: 67px;
+    width: 25px;
+  }
+  .privatuma-politika {
+    top: 437px;
+    left: 20px;
+    width: 280px;
+    height: 16px;
+    font-size: 11px;
+    text-align: left;
+  }
+
+  /* Icons */
+  #blacklogo-icon {
+    max-width: 79px;
+    max-height: 49px;
+  }
+  .union-icon {
+    width: 320px;
+    height: 59px;
+    content: url("../img/union-mobile.svg");
+  }
+  .menu-button {
+    position: absolute;
+    top: 18px;
+    left: 265px;
+    width: 15px;
+    height: 15px;
+    fill: #000;
+    display: block;
+  }
+  #zanda-icon,
+  #anda-icon,
+  #sibilla-icon,
+  #alina-icon,
+  #brinuma-meita-icon {
+    position: absolute;
+    margin-top: 0;
+    top: 174px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  #zanda-icon {
+    max-width: 168px;
+    max-height: 183px;
+  }
+  #anda-icon {
+    top: 0;
+    left: 136px;
+    max-width: 184px;
+    max-height: 174px;
+  }
+  #sibilla-icon {
+    left: 168px;
+    max-width: 167px;
+    max-height: 183px;
+  }  
+  #combined-icon {
+    max-width: 136px;
+    max-height: 167px;
+  }
+  #alina-icon {
+    top: 89px;
+    max-width: 136px;
+    max-height: 85px;
+  }
+  #brinuma-meita-icon {
+    margin-top: 7px;
+    top: 0;
+    max-width: 136px;
+    max-height: 82px;
+  }
+  .union-icon1 {
+    width: 233px;
+    height: 50px;
+  }
+  .union-icon3 {
+    width: 140px;
+    height: 48px;
+  }
+  .union-icon4 {
+    z-index: 1;
+    width: 320px;
+    height: 483px;
+    content: url("../img/union4-mobile.svg");
+  }
+  .subtract-icon {
+    z-index: -1;
+    width: 320px;
+    height: 732.047px;
+    content: url("../img/subtract-mobile.svg");
+  }
+  #teikums-logo-icon {
+    top: 180px;
+    left: 22px;
+    width: 130px;
+    height: 44px;
+  }
+  #sem-logo-icon {
+    top: 176px;
+    left: 170px;
+    width: 131px;
+    height: 51px;
+    content: url("../img/sem-logo-mobile.svg");
+  }
+  #citybee-logo-icon {
+    top: 264px;
+    left: 21px;
+    width: 131px;
+    height: 44px;
+  }
+  #linearis-logo-icon {
+    top: 258px;
+    left: 211px;
+    width: 48px;
+    height: 67px;
+  }
+  .golden-logo-icon {
+    height: 100px;
+    width: 100px;
+    top: 43px;
+    left: 20px;
+  }
+}

@@ -1,0 +1,501 @@
+/* Tablet Design */
+@media screen and (min-width: 767px) and (max-width: 1150px) {
+  /* Header */
+  .sakumlapa {
+    max-width: 768px;
+    height: 3021px;
+  }
+  .menu {
+    left: 80px;
+    width: 128px;
+    height: 81px;
+  }
+  .menu-logo > img {
+    object-fit: contain;
+  }
+  .menu-child { /*  Menu button container */
+    display: none !important;
+  }
+
+  /* Video Container */
+  .video-container {
+    top: 71px;
+    max-width: 100%;
+    max-height: 406px;
+  }
+  .video-container > img {
+    z-index: 1;
+    width: 100%;
+  }
+  #video-inner {
+    top: 142px;
+    left: 321px;
+    max-width: 126px;
+    max-height: 123px;
+    width: 100%;
+    height: 100%;
+    content: url("../img/group-2-tablet.svg");
+  }
+
+  /*  Burger Menu */
+  #burger-menu {
+    height: 100%;
+  }
+  .burger-menu-child > a {
+    position: absolute;
+    left: 208px;
+    width: 352px;
+    height: 24px;
+    color: #000;
+    font-size: 24px;
+  }
+  .language-settings > span {
+    position: absolute;
+    top: 190px;
+    width: 40px;
+    height: 24px;
+    color: #000;
+    font-size: 24px;
+  }
+  #hover-menu {
+    content: url("../img/underline-menu-tablet.svg");
+  }
+  #hover-lang {
+    content: url("../img/underline-lang-tablet.svg");
+  }
+  .burger-menu-child > a:hover,
+  .language-settings > span:hover {
+    font-weight: 600; 
+  }
+  .burger-menu-child > a:hover ~ #hover-menu {
+    left: 301px;
+    width: 166px;
+  }
+  .language-settings > span:hover ~ #hover-lang {
+    top: 220px;
+    width: 31px;
+  }
+  .burger-menu-child > a:hover ~ #hover-menu,
+  .language-settings > span:hover ~ #hover-lang {
+    position: absolute !important;
+    display: block !important;
+  }
+  
+  .lv-lang {
+    left: 235px;
+  }
+  .lv-lang:hover ~ #hover-lang {
+    left: 239px;
+  }
+  .en-lang {
+    left: 363px;
+  }
+  .en-lang:hover ~ #hover-lang {
+    left: 367px;
+  }
+  .rus-lang {
+    left: 491px;
+  }
+  .rus-lang:hover ~ #hover-lang {
+    left: 495px;
+  }
+  .blacklogo-icon-menu {
+    position: absolute;
+    left: 80px;
+    width: 128px;
+    height: 81px;
+    object-fit: contain;
+  }
+  #ideja-menu {
+    top: 294px;
+    left: 305px;
+    width: 158px;
+  }
+  #ideja-menu:hover ~ #hover-menu {
+    top: 318px;
+  } 
+  #piesaki-sapni-menu {
+    top: 398px;
+  }
+  #piesaki-sapni-menu:hover ~ #hover-menu {
+    top: 422px;
+  }
+  #uznemejiem-menu {
+    top: 502px;
+  }
+  #uznemejiem-menu:hover ~ #hover-menu {
+    top: 526px;
+  }
+  #sapnu-banka-menu {
+    top: 606px;
+  }
+  #sapnu-banka-menu:hover ~ #hover-menu {
+    top: 630px;
+  }
+  #sapnus-atbalsta-menu {
+    top: 710px;
+  }
+  #sapnus-atbalsta-menu:hover ~ #hover-menu {
+    top: 734px;
+  }
+  #iedvesmas-stasti-menu {
+    top: 814px;
+  }
+  #iedvesmas-stasti-menu:hover ~ #hover-menu {
+    top: 838px;
+  }
+
+  /* SparkleHeart Container */
+  .sparkleheart-container {
+    margin-top: 0;
+    top: 477px;
+    left: 0px;
+    width: 100%;
+    height: 440px;
+    font-size: var(--font-size-lg);
+    display: block;
+  }
+  .sparkleheart-container > span {
+    position: absolute;
+    margin: 0;
+    top: 150px;
+    left: 80px;
+    max-width: 608px;
+    max-height: 140px;
+    height: 100%;
+  }
+
+  /* Images Container */
+  .image-container {
+    margin-top: 0;
+    top: 917px;
+    width: 100%;
+    height: 100%;
+    max-height: 216px;
+    display: block;
+  }
+
+  /* Two Button Container */
+  .two-buttons > span {
+    top: 1291px;
+    left: 455px;
+    width: 233px;
+    height: 29px;
+    font-size: var(--font-size-lg);
+  }
+  .two-buttons .second-button { /* Style only for second button */
+    left: 80px;
+    width: 233px;
+    height: 54px;
+  }
+  .stt {
+    width: 182px;
+    height: 62px;
+    font-size: var(--font-size-xl);
+  }
+  .sapnotajiem {
+    font-size: var(--font-size-lg);
+  }
+  .poga-pieteikt-sapni,
+  .poga-pieteikt-sapni1 {
+    top: 1395px;
+    left: 80px;
+  }
+  .poga-pieteikt-sapni1 {
+    left: 455px;
+  }
+
+  /* Ripped Elements*/
+  #ripped {
+    margin: 0;
+    top: 917px;
+    max-height: 31px;
+    width: 100%;
+    height: 100%;
+  }
+  #ripped-6-7,
+  #ripped-6-8 {
+    position: absolute;
+    margin: 0;
+    left: 0;
+  }
+  #ripped #ripped-6-7 {
+    content: url("../img/ripped-6-7-tablet.png");
+  }
+  #ripped #ripped-6-8 {
+    top: 193px;
+    content: url("../img/ripped-6-8-tablet.png");
+  }
+
+  /* Feedback */
+  .sazinaties ::placeholder{
+    font-size: var(--font-size-lg);
+  }
+  .sazinaties-ar-mums {
+    top: 1595px;
+    left: -26px;
+    width: 819px;
+    height: 35px;
+    font-size: 30px;
+  }
+  .sazinaties .poga-sutit {
+    top: 2163px;
+    left: 292px;
+    width: 182px;
+    height: 62px;
+    font-size: var(--font-size-xl);
+  }
+  .sazinaties input[type=text], .sazinaties textarea {
+    left: 80px;
+    top: 1690px;
+    width: 294.065px;
+    height: 40px;
+    padding: 12px 12.92px 9.3px;
+    letter-spacing: -0.27px;
+    font-size: var(--font-size-lg);
+  }
+  #epasts {
+    left: 393.93px;
+  }
+  #telefons {
+    top: 1745px;
+    width: 608px;
+  }
+  #jautajums-vai-komentars {
+    top: 1800px;
+    width: 608px;
+    height: 230px;
+  }
+  .obligti-aizpildmie-lauki,
+  .piekrtu-ka-mani {
+    font-size: 14px;
+  }
+  .obligti-aizpildmie-lauki {
+    top: 2045px;
+    left: 80px;
+    width: 608px;
+    height: 19px;
+  }
+  .piekrtu-ka-mani {
+    top: 2074px;
+    left: 121px;
+    width: 568px;
+    height: 39px;
+  }
+  .container input,
+  .checkmark {
+    top: 2074px;
+    left: 80px;
+  }
+
+  /* Sponsors */
+  .atbalstitaji {
+    top: 2375px;
+    width: 100%;
+    height: 299.845px;
+  }
+  #atb {
+    top: 56px;
+    left: 273px;
+    width: 222px;
+    height: 34px;
+  }
+
+  /* Footer */
+  .footer {
+    top: 2628px;
+    width: 100%;
+    height: 393px;
+    font-size: var(--font-size-lg);
+  }
+  .footer > div > *:not(.union-icon4) {
+    z-index: 2;
+  }
+  .footer-menu {
+    display: none !important;
+  }
+  .sparkleheart-2020 {
+    top: 327px;
+    left: 80px;
+    width: 395px;
+    height: 16px;
+    font-size: 16px;
+  }
+
+  /* Company Information */
+  .sparklheart-dati > span {
+    display: none !important;
+  }
+  .kontakti > span {
+    left: 358px;
+    width: 329px;
+  }
+  #kontakta-vards {
+    top: 262px;
+    left: 80px;
+    height: 30px;
+    font-size: var(--font-size-xl);
+    text-align: left;
+  }
+  #kontakta-epasts {
+    top: 114px;
+    left: 358px;
+    width: 329px;
+    height: 24px;
+  }
+  #kontakta-numurs {
+    top: 148px;
+    left: 358px;
+    height: 21px;
+  }
+  #kontakta-adrese {
+    top: 179px;
+    left: 358px;
+    width: 330px;
+    height: 20px;
+  }
+  #rekviziti {
+    top: 209px;
+    left: 408px;
+    width: 280px;
+    height: 23px;
+    font-size: var(--font-size-lg); 
+    font-weight: 700; 
+    display: block;
+  }
+  .social-media > img {
+    top: 267px;
+    height: 25px;
+  }
+  #vector-icon {
+    left: 616px;
+    width: 12.5px;
+  }
+  #vector-icon1 {
+    left: 663px;
+    width: 25px;
+  }
+  .privatuma-politika {
+    top: 327px;
+    left: 511px;
+    width: 176px;
+    height: 16px;
+    font-size: 16px;
+  }
+
+  /* Icons */
+  #blacklogo-icon {
+    max-width: 128px;
+    max-height: 81px;
+    object-fit: contain;
+  }
+  .union-icon {
+    width: 100%;
+    height: 96px;
+    content: url("../img/union-tablet.svg");
+  }
+  .menu-button {
+    position: absolute;
+    top: 35px;
+    left: 583px;
+    width: 24.8px;
+    height: 20px;
+    fill: #000;
+    display: block;
+  }
+  #zanda-icon,
+  #anda-icon,
+  #sibilla-icon,
+  #alina-icon,
+  #brinuma-meita-icon {
+    position: absolute;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  #zanda-icon {
+    margin-top: 8px;
+    max-width: 184px;
+    max-height: 200px;
+  }
+  #anda-icon {
+    left: 539px;
+    max-width: 229px;
+    max-height: 216px;
+  }
+  #sibilla-icon {
+    margin-top: 10px;
+    left: 184px;
+    max-width: 188px;
+    max-height: 206px;
+  }  
+  #combined-icon {
+    max-width: 167px;
+    max-height: 206px;
+  }
+  #alina-icon {
+    top: 112px;
+    left: 372px;
+    max-width: 167px;
+    max-height: 104px;
+  }
+  #brinuma-meita-icon {
+    margin-top: 10px;
+    left: 372px;
+    max-width: 167px;
+    max-height: 102px;
+  }
+  .union-icon1 {
+    width: 233px;
+    height: 50px;
+  }
+  .union-icon3 {
+    width: 182px;
+    height: 62px;
+  }
+  .union-icon4 {
+    z-index: 1;
+    width: 100%;
+    height: 422px;
+    content: url("../img/union4-tablet.svg");
+  }
+  .subtract-icon {
+    z-index: -1;
+    width: 100%;
+    height: 299.845px;
+    content: url("../img/subtract-tablet.svg");
+  }
+  #teikums-logo-icon {
+    top: 126px;
+    left: 80px;
+    width: 144px;
+    height: 47px;
+  }
+  #sem-logo-icon {
+    top: 126px;
+    left: 274px;
+    width: 123px;
+    height: 47px;
+    content: url("../img/sem-logo-mobile.svg");
+  }
+  #citybee-logo-icon {
+    top: 126px;
+    left: 447px;
+    width: 142px;
+    height: 47px;
+  }
+  #linearis-logo-icon {
+    top: 115px;
+    left: 639px;
+    width: 49px;
+    height: 71px;
+  }
+  .golden-logo-icon {
+    top: 70px;
+    left: 80px;
+    height: 100px;
+    width: 100px;
+  }
+}

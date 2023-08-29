@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-style: normal; 
+  line-height: normal;
+  font-weight: 500; 
+}
+
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-oswald: Oswald;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslategray: #2f4858;
+  --color-gray: #060606;
+  --color-silver: rgba(196, 196, 196, 0.4);
+
+  /* border radiuses */
+  --br-7xs: 6px;
+}

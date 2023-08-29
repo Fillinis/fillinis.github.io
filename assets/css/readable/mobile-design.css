@@ -1,0 +1,329 @@
+/* Mobile design */
+@media screen and (min-width: 320px) and (max-width: 1366px) {
+    /* Header */
+    .sakumlapa {
+      width: 320px;
+      height: 2971px;
+    }
+    .menu {
+      top: -23px;
+      left: 20px;
+      width: 280px;
+      height: 72px;
+    }
+    .menu-child { /*  Menu button container */
+      display: none;
+    }
+  
+    /* Video Container */
+    .video-container > * {
+      width: 320px;
+      height: 169px;
+      top: 49px;
+    }
+    .video-inner {
+      top: 110.37px;
+      left: 135px;
+      width: 50px;
+      height: 48.256px;
+    }
+  
+    /* SparkleHeart Container */
+    .sparkleheart-container {
+      top: 298px;
+      left: 20px;
+      width: 280px;
+      height: 124px;
+      font-size: 12px;
+    }
+  
+    /* Images Container */
+    .image-container > img {
+      width: 320px;
+    }
+  
+    /* Two Button Container */
+    .two-buttons > span {
+      top: 979px;
+      left: -33px;
+      font-size: var(--font-size-lg);
+    }
+    .two-buttons .second-button { /* Style only for second button */
+      top: 1168px;
+      left: 20px;
+      width: 280px;
+      height: 55px;
+    }
+    .stt {
+      width: 140px;
+      height: 48px;
+    }
+    .sapnotajiem,
+    .stt {
+      font-size: var(--font-size-lg);
+    }
+    .poga-pieteikt-sapni,
+    .poga-pieteikt-sapni1 {
+      top: 1038px;
+      left: 47px;
+    }
+    .poga-pieteikt-sapni1 {
+      top: 1253px;
+    }
+  
+    /* Ripped Elements*/
+    #ripped-6-7,
+    #ripped-6-8 {
+      height: 24px;
+    }
+    #ripped-6-7 {
+      top: 502px;
+    }
+    #ripped-6-8 {
+      top: 834px;
+      height: 25px;
+    }
+  
+    /* Feedback */
+    .sazinaties ::placeholder{
+      font-size: 14px;
+    }
+    .sazinaties-ar-mums {
+      top: 1423px;
+      left: 20px;
+      width: 280px;
+      height: 35px;
+      font-size: var(--font-size-xl);
+    }
+    .sazinaties .poga-sutit {
+      width: 140px;
+      height: 48px;
+      top: 1924px;
+      left: 90px;
+      font-size: var(--font-size-lg);
+    }
+    .sazinaties input[type=text], .sazinaties textarea {
+      left: 20px !important;
+      top: 1488px;
+      width: 280px;
+      height: 35px;
+      padding: 10px 12px 8.14px;
+      letter-spacing: -0.21px;
+      font-size: var(--font-size-sm);
+    }
+    #epasts {
+      top: 1533px;
+    }
+    #telefons {
+      top: 1578px;
+      width: 280px;
+    }
+    #jautajums-vai-komentars {
+      top: 1623px;
+      width: 280px;
+      height: 150px;
+    }
+    .obligti-aizpildmie-lauki,
+    .piekrtu-ka-mani {
+      font-size: 12px;
+    }
+    .obligti-aizpildmie-lauki {
+      top: 1783px;
+      left: 20px;
+      width: 280px;
+      height: 18px;
+    }
+    .piekrtu-ka-mani {
+      top: 1811px;
+      left: 57px;
+      width: 243px;
+      height: 63px;
+    }
+    .piekritu-glabasanai {
+      top: 1811px;
+      left: 20px;
+    }
+  
+    /* Sponsors */
+    .atbalstitaji {
+      top: 2176px;
+      width: 320px;
+      height: 732.047px;
+    }
+    #atb {
+      top: 83px;
+      left: 81px;
+      width: 160px;
+      height: 33px;
+    }
+  
+    /* Footer */
+    .footer {
+      top: 2488px;
+      width: 320px;
+      height: 483px;
+      font-size: 12px;
+    }
+    .footer > div > *:not(.union-icon4) {
+      z-index: 2;
+    }
+    .footer-menu {
+      display: none;
+    }
+    .sparkleheart-2020 {
+      top: 416px;
+      left: 20px;
+      width: 280px;
+      height: 16px;
+      font-size: 11px;
+      text-align: left;
+    }
+  
+    /* Company Information */
+    .sparklheart-dati > span {
+      display: none;
+    }
+    .kontakti > span {
+      left: 20px !important;
+      width: 279px;
+      text-align: left;
+    }
+    #kontakta-vards {
+      top: 168px;
+      height: 17px;
+      font-size: var(--font-size-lg);
+    }
+    #kontakta-epasts {
+      top: 222px;
+      height: 15px;
+    }
+    #kontakta-numurs {
+      top: 249px;
+      height: 16px;
+    }
+    #kontakta-adrese {
+      top: 274px;
+      left: 987px;
+      width: 315px;
+      height: 22px;
+    }
+    #rekviziti {
+      top: 300px;
+      width: 220px;
+      height: 21px;
+      font-size: 14px; 
+      font-weight: 700; 
+      display: block;
+    }
+    .social-media > img {
+      top: 356px;
+      height: 25px;
+    }
+    #vector-icon {
+      left: 20px;
+      width: 12.5px;
+      content: url("../img/vector-mobile.svg");
+    }
+    #vector-icon1 {
+      left: 67px;
+      width: 25px;
+      content: url("../img/vector1-mobile.svg");
+    }
+    .privatuma-politika {
+      top: 437px;
+      left: 20px;
+      width: 280px;
+      height: 16px;
+      font-size: 11px;
+      text-align: left;
+    }
+  
+    /* Icons */
+    .blacklogo-3-icon {
+      width: 78px;
+      height: 72px;
+    }
+    .union-icon {
+      width: 320px;
+      height: 81.091px;
+    }
+    #zanda-1-icon {
+      top: 676px;
+      width: 168px;
+      height: 183px;
+    }
+    #anda-2-1-icon {
+      top: 502px;
+      left: 136px;
+      width: 184px;
+      height: 174px;
+    }
+    #alina-1-1-icon {
+      top: 591px;
+      left: 0px;
+      width: 136px;
+      height: 85px;
+    }
+    #sibilla-4-icon {
+      top: 676px;
+      left: 168px;
+      width: 167px;
+      height: 183px;
+    }
+    #brinuma-meita-15-icon {
+      top: 509px;
+      left: 0px;
+      width: 136px;
+      height: 82px;
+    }
+    .union-icon1 {
+      width: 233px;
+      height: 50px;
+    }
+    .union-icon3 {
+      width: 140px;
+      height: 48px;
+    }
+    .union-icon4 {
+      z-index: 1;
+      width: 320px;
+      height: 483px;
+      content: url("../img/union4-mobile.svg");
+    }
+    .subtract-icon {
+      z-index: -1;
+      width: 320px;
+      height: 732.047px;
+      content: url("../img/subtract-mobile.svg");
+    }
+    #getlogo-1-icon {
+      top: 180px;
+      left: 22px;
+      width: 130px;
+      height: 44px;
+    }
+    #sem-logo-2-1-icon {
+      top: 176px;
+      left: 170px;
+      width: 131px;
+      height: 51px;
+    }
+    #citybee-logo-1-icon {
+      top: 264px;
+      left: 21px;
+      width: 131px;
+      height: 44px;
+    }
+    #logo1-1-icon {
+      top: 258px;
+      left: 211px;
+      width: 48px;
+      height: 67px;
+    }
+    .goldenv2logo-3-icon {
+      height: 100px;
+      width: 100px;
+      top: 43px;
+      left: 20px;
+    }
+  }
